@@ -83,10 +83,6 @@ UPDATE employee
 SET age=80
 WHERE id = 3;
 
-SELECT MAX(age)
-FROM employee
-GROUP BY first_name
-HAVING count(first_name) > 1;
 
 SELECT first_name AS Имя,
        age        AS Максимальный_возраст
