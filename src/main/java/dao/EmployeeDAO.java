@@ -11,7 +11,7 @@ public interface EmployeeDAO {
 
     List<Employee> readAll();
 
-    void updateAge(int id, int age);
+    void updateAge(Employee employee);
 
-    void delete(int id);
+    void delete(Employee employee);
 }
